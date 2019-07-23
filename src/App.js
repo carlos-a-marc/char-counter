@@ -22,10 +22,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Character Counter</h1>
-        <h3>Put your text in text area</h3>
-        <textarea className="text-area" id="text" onKeyUp={() => this.counter()}></textarea>
-        <p className="number-char">Characters: {this.state.characters}</p>
+        <div className="container">
+          <h1>Character Counter</h1>
+          <h3>Put your text in text area</h3>
+          <textarea className="text-area" id="text" onKeyUp={() => this.counter()}></textarea>
+          <p className="number-char">Characters: {this.state.characters}</p>
+        </div>
       </div>
     );
   }

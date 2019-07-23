@@ -10,12 +10,33 @@
   color: white;
 }
 
+.container{
+  max-width: 760px;
+  background-color: #545556;  
+  min-height: 90vh;
+  border-radius: 10px;
+}
+
+.container h1{
+  font-size: 2rem;
+  margin-top: 25px;
+}
+
+.container h3{
+  font-size: 1rem;
+}
+
 .text-area{
   width: 80%;
   height: 300px;
-  font-size: 1.2rem;
+  font-size: 1rem;
+  margin-top: 25px;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, .3);
+  color: #fff;
 }
 
 .number-char{
-  font-size: 1rem;
+  font-size: 0.7rem;
 }
